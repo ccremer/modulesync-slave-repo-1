@@ -12,3 +12,4 @@ vendor/
 jsonnetfile.lock.json
 
 # Additional entries
+my-custom-dir/
