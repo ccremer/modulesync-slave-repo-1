@@ -1,3 +1,7 @@
 .gitignore:
   additionalEntries:
     - my-custom-dir/
+
+.github/workflows/test.yaml:
+  unit-tests: true
+#  component-compile: true
