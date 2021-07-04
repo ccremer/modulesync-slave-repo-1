@@ -6,13 +6,13 @@ PullRequest:
   BodyTemplate: Hellou {{ .Metadata.Repository.Name }}
   Create: true
   Labels:
-  - git-repo-sync
-  Subject: Update from git-repo-sync
+  - greposync
+  Subject: Update from greposync
   TargetBranch: ""
 Repository:
   CommitBranch: my-branch
   CommitMessage: |
-    Update from ccremer/git-repo-sync
+    Update from ccremer/greposync
 
     long desc
   CreatePR: true
