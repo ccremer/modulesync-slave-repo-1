@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: ccremer/greposync-action@0ae07c3315a7911a97f2bc57ca94ae534f188a05
+      - uses: ccremer/greposync-action@d76c83b2363d990c8017d2f5fdb53b4ba52fc26c
         with:
-          args: --help
+          args: update --help
           version: v0.1.0-rc1
