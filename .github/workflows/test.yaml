@@ -2,26 +2,14 @@ name: Pull Request
 on:
   pull_request:
     branches:
-      - master
+      - main
 
 jobs:
-  linting:
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        command:
-          - lint_jsonnet
-          - lint_yaml
-          - docs-vale
-    steps:
-      - uses: actions/checkout@v2
-      - name: Run ${{ matrix.command }}
-        run: make ${{ matrix.command }}
-  editorconfig:
+  gsync:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: snow-actions/eclint@v1.0.1
+      - uses: ccremer/greposync-action@0ae07c3315a7911a97f2bc57ca94ae534f188a05
         with:
-          args: 'check'
-
+          args: --help
+          version: v0.1.0-rc1
