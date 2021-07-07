@@ -4,7 +4,7 @@ My name is adsf
 
 PullRequest:
   BodyTemplate: Hellou {{ .Metadata.Repository.Name }}
-  Create: true
+  Create: false
   Labels:
   - greposync
   Subject: Update from greposync
@@ -15,7 +15,7 @@ Repository:
     Update from ccremer/greposync
 
     long desc
-  CreatePR: true
+  CreatePR: false
   DefaultBranch: main
   ForcePush: true
   Name: modulesync-slave-repo-1
