@@ -15,7 +15,6 @@ Repository:
     Update from ccremer/greposync
 
     long desc
-  CreatePR: false
   DefaultBranch: main
   ForcePush: true
   Name: modulesync-slave-repo-1
