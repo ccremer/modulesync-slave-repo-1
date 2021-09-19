@@ -7,3 +7,5 @@ Adjust variables in `.sync.yml`.
 = adsf
 
 My awesome, greposync managed repository
+
+diff?
