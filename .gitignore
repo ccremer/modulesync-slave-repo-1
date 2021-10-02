@@ -1,15 +1,7 @@
-#
-# File managed by ModuleSync - Do Not Edit
-#
-# Additional entries can be added to `.sync.yml` in '.gitignore.additionalEntries'
+<!--
+This file is managed by greposync.
+Do not modify manually.
+Adjust variables in `.sync.yml`.
 
-_archive/
-_public/
-.cache/
-helmcharts/
-manifests/
-vendor/
-jsonnetfile.lock.json
-
-# Additional entries
-my-custom-dir/
+-->
+gitignore
