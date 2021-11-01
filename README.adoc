@@ -4,4 +4,8 @@ Do not modify manually.
 Adjust variables in `.sync.yml`.
 
 -->
-gitignore
+= adsf
+
+My awesome, greposync managed repository
+
+yup
